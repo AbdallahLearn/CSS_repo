@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+header ul,li{
+    display:flex;
+    margin-left:40px;
+}
+li, a{
+    text-decoration: none;
+}
+.content {
+    text-align: center;
+    margin-top: 100px;;
+}
+.content h1{
+    padding:30px;
+}
+
+button{
+    width:70px;
+    height:30px;
+    border-radius: 15px;
+    background:blue;
+    color:white;
+}
+button:hover{
+    scale: 1.4;
+}
